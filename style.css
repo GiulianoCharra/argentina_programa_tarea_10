@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+[class^="punto"] {
+  background-color: aliceblue;
+  padding: 10px;
+  display: inline-block;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin-block: 20px;
+}
+
+tr,
+td {
+  padding: 10px;
+  transition: background-color 0.5s, color 0.3s;
+}
+
+.noticia {
+  background-color: rgb(203, 171, 233);
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.noticia p {
+  -webkit-transition: font-size 0.5s ease-in-out;
+  -moz-transition: font-size 0.5s ease-in-out;
+  -o-transition: font-size 0.5s ease-in-out;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.p17 strong {
+  cursor: pointer;
+}
+
+.div20 {
+  transition: width 1s, height 1s;
+  transition-timing-function: cubic-bezier(0.7, -0.53, 0.26, 1.4);
+}
+
+.form24 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin-block: 10px;
+  background-color: rgb(196, 216, 232);
+}
